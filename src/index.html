@@ -16,6 +16,7 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./sass/main.scss " />
   </head>
   <body>
     <header class="header">
@@ -29,41 +30,43 @@
           <a class="header__container__nav__link" href="#">Kontakt</a>
           <a class="header__container__nav__link" href="#">FAQ</a>
         </nav>
-        <button class="header__container__buttonLang" type="button">
-          PL
-          <svg
-            width="9"
-            height="9"
-            viewBox="0 0 9 9"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g clip-path="url(#clip0_265_3648)">
-              <path
-                d="M4.50071 7.06531C4.33941 7.06531 4.17813 7.00372 4.05516 6.88081L0.18536 3.01097C-0.06081 2.7648 -0.06081 2.36568 0.18536 2.11961C0.43143 1.87354 0.830472 1.87354 1.07666 2.11961L4.50071 5.54386L7.92477 2.11973C8.17094 1.87366 8.56995 1.87366 8.816 2.11973C9.06229 2.3658 9.06229 2.76492 8.816 3.01109L4.94626 6.88093C4.82322 7.00386 4.66195 7.06531 4.50071 7.06531Z"
-                fill="black"
-              />
-            </g>
-            <defs>
-              <clipPath id="clip0_265_3648">
-                <rect width="9" height="9" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-        </button>
-        <button class="header__container__buttonMenu" type="button">
-          <svg
-            width="36"
-            height="26"
-            viewBox="0 0 36 26"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="36" height="2" fill="#212121" />
-            <rect y="12" width="36" height="2" fill="#212121" />
-            <rect y="24" width="36" height="2" fill="#212121" />
-          </svg>
-        </button>
+        <div class="header__container_menuBtns">
+          <button class="header__container__buttonLang" type="button">
+            PL
+            <svg
+              width="9"
+              height="9"
+              viewBox="0 0 9 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_265_3648)">
+                <path
+                  d="M4.50071 7.06531C4.33941 7.06531 4.17813 7.00372 4.05516 6.88081L0.18536 3.01097C-0.06081 2.7648 -0.06081 2.36568 0.18536 2.11961C0.43143 1.87354 0.830472 1.87354 1.07666 2.11961L4.50071 5.54386L7.92477 2.11973C8.17094 1.87366 8.56995 1.87366 8.816 2.11973C9.06229 2.3658 9.06229 2.76492 8.816 3.01109L4.94626 6.88093C4.82322 7.00386 4.66195 7.06531 4.50071 7.06531Z"
+                  fill="black"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_265_3648">
+                  <rect width="9" height="9" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
+          <button class="header__container__buttonMenu" type="button">
+            <svg
+              width="36"
+              height="26"
+              viewBox="0 0 36 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="36" height="2" fill="#212121" />
+              <rect y="12" width="36" height="2" fill="#212121" />
+              <rect y="24" width="36" height="2" fill="#212121" />
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main>

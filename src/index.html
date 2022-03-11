@@ -18,16 +18,18 @@
     />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <a href="#"> <img src="./images/MaasLoopLogo.png" alt="logo image" /> </a>
-        <nav>
-          <a href="#">Policz zyski</a>
-          <a href="#">O produkcie</a>
-          <a href="#">Kontakt</a>
-          <a href="#">FAQ</a>
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__container__logo" href="#">
+          <img src="./images/MaasLoopLogo.png" alt="logo image" />
+        </a>
+        <nav class="header__container__nav">
+          <a class="header__container__nav__link" href="#">Policz zyski</a>
+          <a class="header__container__nav__link" href="#">O produkcie</a>
+          <a class="header__container__nav__link" href="#">Kontakt</a>
+          <a class="header__container__nav__link" href="#">FAQ</a>
         </nav>
-        <button type="button">
+        <button class="header__container__buttonLang" type="button">
           PL
           <svg
             width="9"
@@ -49,7 +51,7 @@
             </defs>
           </svg>
         </button>
-        <button type="button">
+        <button class="header__container__buttonMenu" type="button">
           <svg
             width="36"
             height="26"
@@ -66,11 +68,17 @@
     </header>
     <main>
       <!-- hero -->
-      <section>
-        <div class="container-hero">
-          <h1>Inteligentna kruszarka, która zamienia szkło w piasek.</h1>
-          <img src="./images/maasloop_orange_open_white_s 1.png" alt="mashine" />
-          <a href="#">
+      <section class="hero">
+        <div class="container__hero container">
+          <h1 class="container__hero__title">
+            Inteligentna kruszarka, która zamienia szkło w piasek.
+          </h1>
+          <img
+            class="container__hero__imageProduct"
+            src="./images/maasloop_orange_open_white_s 1.png"
+            alt="mashine"
+          />
+          <a class="container__hero__linkToBy" href="#">
             <svg
               width="29"
               height="46"
@@ -88,40 +96,45 @@
         </div>
       </section>
       <!-- about -->
-      <section>
-        <div>
-          <h2>Płać 5 razy mniej za wywóz odpadów szklanych.</h2>
-          <p>
+      <section class="about">
+        <div class="about__container">
+          <h2 class="about__container__title">Płać 5 razy mniej za wywóz odpadów szklanych.</h2>
+          <p class="about__container__description">
             Kruszarka zmniejsza gabaryty szklanych śmieci, a Ty płacisz PIĘ-CIO-KROT-NIE niższe
             rachunki za ich wywóz.
           </p>
         </div>
       </section>
       <!-- calc -->
-      <section>
-        <div class="container"></div>
-        <h3>Ile zaoszczędzisz?</h3>
-        <p>Rachunek jest prosty.</p>
-        <div>
-          <h4>Ile pojemników na szkło zapełniasz miesięcznie?</h4>
-          <input type="text" />
-        </div>
-        <div>
-          <h4>Ile płacisz za wywóz jednego pojemnika na szkło?</h4>
-          <input type="text" />
-        </div>
-        <div>
-          <h4>Dzięki kruszarce zaoszczędzisz</h4>
-          <p>900 zł</p>
-          <p>rocznie.</p>
+      <section class="calc">
+        <div class="calc__container container">
+          <h3 class="calc__container__title">Ile zaoszczędzisz?</h3>
+          <p class="calc__container__description">Rachunek jest prosty.</p>
+          <div class="calc__container__quantityGlass">
+            <h4 class="calc__container__quantityGlass__description">
+              Ile pojemników na szkło zapełniasz miesięcznie?
+            </h4>
+            <input class="calc__container__quantityGlass_input" type="text" />
+          </div>
+          <div class="calc__container__sum">
+            <h4 class="calc__container__sum__description">
+              Ile płacisz za wywóz jednego pojemnika na szkło?
+            </h4>
+            <input class="calc__container__sum__input" type="text" />
+          </div>
+          <div class="calc__container__total">
+            <h4 class="calc__container__total__description">Dzięki kruszarce zaoszczędzisz</h4>
+            <p class="calc__container__total_money">900 zł</p>
+            <p class="calc__container__total_period">rocznie.</p>
+          </div>
         </div>
       </section>
       <!-- offer -->
-      <section>
-        <div class="container">
-          <p>To na co wydasz zaoszczędzoną gotówkę?</p>
-          <button type="button">KUP 8499 zł</button>
-          <h3>Brzmi dobrze? Uważaj. Dopiero się rozkręcamy!</h3>
+      <section class="offer">
+        <div class="offer__container container">
+          <p class="offer__container__description">To na co wydasz zaoszczędzoną gotówkę?</p>
+          <button class="offer__container__button" type="button">KUP 8499 zł</button>
+          <h3 class="offer__container__title">Brzmi dobrze? Uważaj. Dopiero się rozkręcamy!</h3>
         </div>
       </section>
     </main>

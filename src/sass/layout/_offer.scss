@@ -1,0 +1,61 @@
+.offer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #212121;
+    padding-top: 60px;
+    margin-right: 3px;
+    margin-bottom: 63px;
+  }
+  &__button {
+    width: 320px;
+    height: 80px;
+    margin: 0 auto;
+    background: #ffb001;
+    box-shadow: 0px 34px 64px -10px rgba(0, 0, 0, 0.15);
+    border-radius: 47.5px;
+    border-style: none;
+    margin-bottom: 40px;
+
+    & > p {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+      margin-right: 17px;
+    }
+    & > p > span {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+      //   margin-right: 3px;
+    }
+  }
+  &__title {
+    padding-left: 39px;
+    padding-right: 39px;
+    margin-bottom: 106px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #212121;
+  }
+}

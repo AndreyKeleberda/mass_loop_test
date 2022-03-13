@@ -59,3 +59,35 @@
     color: #212121;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .offer__container__description {
+    padding-top: 81px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 5px;
+    margin-bottom: 61px;
+  }
+  .offer__container__button {
+    width: 386px;
+    height: 95px;
+    padding-top: 4px;
+    & p {
+      font-size: 24px;
+      line-height: 29px;
+      margin-left: 18px;
+
+      & span {
+        font-size: 24px;
+        line-height: 29px;
+      }
+    }
+  }
+  .offer__container__title {
+    font-size: 28px;
+    line-height: 34px;
+    padding-left: 417px;
+    padding-right: 417px;
+    margin-top: 37px;
+  }
+}

@@ -14,7 +14,6 @@
   line-height: 29px;
   text-align: center;
   color: #212121;
-
   margin: 0px 40px 25px 38px;
 }
 
@@ -27,4 +26,30 @@
   margin: 26px 21px 75px 19px;
   text-align: center;
   color: #212121;
+}
+
+@media screen and (min-width: 1440px) {
+  .about__container {
+    border: 20px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-top: 58px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      margin: 0 auto;
+      width: 763px;
+      font-size: 40px;
+      line-height: 49px;
+    }
+    &__description {
+      font-size: 20px;
+      line-height: 32px;
+      width: 711px;
+      margin: 39px 0 39px 18px;
+    }
+  }
 }

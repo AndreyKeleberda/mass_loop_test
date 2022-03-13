@@ -48,3 +48,21 @@
     left: 26px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .container__hero {
+    margin-top: 134px;
+    height: 799px;
+    border-bottom: none;
+  }
+  .container__hero__title {
+    width: 997px;
+    font-size: 55px;
+    line-height: 67px;
+    margin-top: 30px;
+    margin-left: 2px;
+  }
+  .container__hero__imageProduct {
+    width: 863px;
+  }
+}

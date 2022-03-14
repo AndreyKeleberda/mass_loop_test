@@ -7,4 +7,4 @@ let e=document.querySelectorAll("input");const t=document.querySelector(".calc__
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js modules/calc.js"),require("./js modules/mobile-menu.js");
 },{"./sass/main.scss":"clu1","./js modules/calc.js":"kbtR","./js modules/mobile-menu.js":"LLGL"}]},{},["Focm"], null)
-//# sourceMappingURL=/mass_loop_test/src.28f15844.js.map
+//# sourceMappingURL=/mass_loop_test/src.7c727153.js.map

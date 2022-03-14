@@ -53,7 +53,7 @@
               </defs>
             </svg>
           </button>
-          <button class="header__container__buttonMenu" type="button">
+          <button class="header__container__buttonMenu menu-toggle js-open-menu " type="button">
             <svg
               width="36"
               height="26"
@@ -66,11 +66,27 @@
               <rect y="24" width="36" height="2" fill="#212121" />
             </svg>
           </button>
+          <button class="header__container__buttonCloseMenu menu-toggle js-close-menu " type="button">
+            <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1.97961" width="36" height="2" transform="rotate(45 1.97961 0)" fill="#212121"/>
+              <rect x="0.565552" y="25.4561" width="36" height="2" transform="rotate(-45 0.565552 25.4561)" fill="#212121"/>
+              </svg>              
+          </button>
           <a class="header__container__buttonOffer" href="#"> <span>KUP</span> </a>
         </div>
       </div>
+      <div class="menuContainer js-menu-container" id="mobile-open">
+        <ul class="menuContainer__list">
+          <a href="" class="menuContainer__list__item">Policz zyski</a>
+          <a href="" class="menuContainer__list__item">O produkcie</a>
+          <a href="" class="menuContainer__list__item">Kontakt</a>
+          <a href="" class="menuContainer__list__item">FAQ</a>
+        </ul>
+        <a class="header__container__buttonOffer--mobile" href="#"> <span>KUP</span> </a>
+      </div>
     </header>
     <main>
+      
       <!-- hero -->
       <section class="hero">
         <div class="container__hero container">

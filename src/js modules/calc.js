@@ -1,21 +1,3 @@
-// const inputQuantityGlass = document.querySelector('.calc__container__quantityGlass__input');
-// const inputQuantityMoney = document.querySelector('.calc__container__sum__input');
-
-// inputQuantityMoney.addEventListener('blur', b);
-
-// let a = inputQuantityGlass.addEventListener('blur', e => {
-//   return Number(e.currentTarget.value);
-// });
-
-// function b() {
-//   return (b = Number(e.currentTarget.value));
-// }
-
-// // function calc(A, B) {
-// //   console.log(A, B);
-// //   return A * B;
-// // }
-// // calc(a, b);
 let input = document.querySelectorAll('input');
 const totalText = document.querySelector('.calc__container__total__money');
 
